@@ -10,11 +10,13 @@ import { StateSchema } from "./deco.gen";
 import { Env } from "./main.ts";
 import type { CreateMCPServerOptions } from "@deco/workers-runtime/mastra";
 
-export const views: CreateMCPServerOptions<Env, typeof StateSchema>["views"] =
-  () => [
-    // {
-    //     title: "My View",
-    //     icon: "mode_cool", // Available icons: https://fonts.google.com/icons?selected=Material+Icons
-    //     url: "https://my-view.deco.page",
-    // },
-  ];
+export const views: CreateMCPServerOptions<
+  Env,
+  typeof StateSchema
+>["views"] = () => [
+  {
+    title: "Comparador de Indicadores Municipais",
+    icon: "apartment",
+    url: "https://guisposit-camp.deco.page",
+  },
+];

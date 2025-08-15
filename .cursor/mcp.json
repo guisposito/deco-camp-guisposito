@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "guisposit-camp": {
+      "type": "http",
+      "url": "https://localhost-0c5bcf51.deco.host/mcp"
+    }
+  }
+}

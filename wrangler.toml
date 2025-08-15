@@ -1,0 +1,10 @@
+#:schema node_modules/@deco/workers-runtime/config-schema.json
+[deco]
+workspace = "/users/ec050bda-1540-4d8f-95d4-73fd15271631"
+local = false
+enable_workflows = true
+
+[[deco.bindings]]
+name = "GOOGLEGMAIL_GUILHERMESPOSITON1AG"
+type = "mcp"
+integration_id = "i:180ebd1d-8fb3-4e9b-9d8c-3b7372641912"

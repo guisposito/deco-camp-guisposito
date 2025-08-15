@@ -17,6 +17,6 @@ export const views: CreateMCPServerOptions<
   {
     title: "Comparador de Indicadores Municipais",
     icon: "apartment",
-    url: "https://guisposit-camp.deco.page",
+    url: "https://comparador-de-indicadores-municipais.deco.page",
   },
 ];
